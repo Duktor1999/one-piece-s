@@ -1,0 +1,122 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(ellipse at top, #ff8c00, #2b2b2b);
+  color: #fff5e6;
+  line-height: 1.6;
+  padding: 20px;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #e25822; /* огненно-оранжевый */
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff4500;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 5px black;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+  background-color: #2b2b2b;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 15px #ff8c00;
+}
+
+.profile img {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #ff4500;
+}
+
+.profile .info {
+  flex: 1;
+}
+
+.profile .info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.abilities, .story {
+  background-color: #3a3a3a;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 15px #ff6347;
+}
+
+.abilities h2, .story h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffcc00;
+}
+
+.abilities ul li, .story p {
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #e25822;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 10px #e25822;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #ff4500;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #ff4500;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle {
+  right: 20px;
+}
+
+#back-button {
+  left: 20px;
+}
+
+button:hover {
+  background-color: #cc3700;
+}

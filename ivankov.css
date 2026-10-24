@@ -1,0 +1,123 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  background: radial-gradient(circle at center, #330033, #000);
+  color: #f1c1f1;
+  line-height: 1.6;
+  padding: 20px;
+  overflow-x: hidden;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+  background-color: #993399;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff66ff;
+}
+
+header h1 {
+  font-size: 3rem;
+  margin-bottom: 10px;
+  text-shadow: 0 0 10px #660066;
+}
+
+header p {
+  font-size: 1.2rem;
+}
+
+.profile {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 30px;
+  gap: 20px;
+  background-color: #4d004d;
+  border-radius: 10px;
+  padding: 20px;
+  box-shadow: 0 0 20px #cc00cc;
+}
+
+.profile img {
+  width: 300px;
+  border-radius: 10px;
+  border: 3px solid #ff66ff;
+}
+
+.profile .info {
+  flex: 1;
+}
+
+.profile .info h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffb3ff;
+}
+
+ul {
+  list-style: none;
+}
+
+ul li {
+  margin-bottom: 10px;
+  font-size: 1.1rem;
+}
+
+.abilities, .story {
+  background-color: #550055;
+  border-radius: 10px;
+  padding: 20px;
+  margin-top: 20px;
+  box-shadow: 0 0 20px #cc00cc;
+}
+
+.abilities h2, .story h2 {
+  font-size: 2rem;
+  margin-bottom: 10px;
+  color: #ffb3ff;
+}
+
+.abilities ul li, .story p {
+  font-size: 1.1rem;
+}
+
+footer {
+  text-align: center;
+  margin-top: 40px;
+  padding: 20px;
+  background-color: #993399;
+  color: #fff;
+  border-radius: 10px;
+  box-shadow: 0 0 20px #ff66ff;
+}
+
+button {
+  position: fixed;
+  bottom: 20px;
+  padding: 10px 15px;
+  border-radius: 5px;
+  background-color: #993399;
+  color: #fff;
+  border: none;
+  font-weight: bold;
+  cursor: pointer;
+  box-shadow: 0 0 10px #cc00cc;
+  transition: background-color 0.3s ease;
+}
+
+#theme-toggle {
+  right: 20px;
+}
+
+#back-button {
+  left: 20px;
+}
+
+button:hover {
+  background-color: #cc00cc;
+}
